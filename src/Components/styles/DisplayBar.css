@@ -1,0 +1,72 @@
+.display-bar {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.display-button {
+  margin: 15px;
+  margin-left: 40px;
+  padding: 4px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #dfe1e4;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.display-button svg {
+  margin-bottom: -2px;
+}
+
+.modal-box {
+  background-color: #f9fafb;
+  z-index: 9999;
+  position: absolute;
+  top: 45px;
+  left: 38px;
+  width: 280px;
+  height: 100px;
+  border: 1px solid #dfe1e4;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  user-select: none;
+}
+
+.modal-box div {
+  padding: 15px 20px 5px 20px;
+  color: #8a8a8b;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.modal-box select {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #dfe1e4;
+  padding: 2px 35px 2px 4px;
+  text-align: left;
+}
+
+.modal-box select:focus {
+  outline: none;
+  border: 1px solid #dfe1e4;
+}
+
+.modal-box select::after {
+  content: "\25BC";
+  color: #dfe1e4;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 999;
+}

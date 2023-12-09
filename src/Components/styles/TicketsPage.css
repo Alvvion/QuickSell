@@ -1,0 +1,36 @@
+.tickets-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin-left: 30px;
+  margin-right: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.header-title {
+  display: flex;
+}
+
+.header-icon {
+  margin: 0px 10px -3px 0px;
+}
+
+.header-title-span {
+  margin-left: 15px;
+  color: #8a8a8a;
+}
+
+.header-icons svg {
+  margin: 0 5px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
